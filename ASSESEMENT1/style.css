@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* header start  */
+
+.header {
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.div-1 {
+    height: 700px;
+    width: 100%;
+}
+
+
+/* div-1 image  */
+
+.div-1 img {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.div-2 {
+    height: 2700px;
+    width: 25%;
+    position: absolute;
+    padding: 10px 10px;
+    background-color: rgba(121, 112, 112, 0.5);
+    position: fixed;
+}
+
+.div-2 .dream {
+    width: 80%;
+    padding: 20px 90px;
+    text-align: center;
+    color: white;
+    border: 1px double white;
+}
+
+
+/* navigation  */
+
+.div-2 .nav {
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.div-2 .nav ul li {
+    color: white;
+    margin-top: 12%;
+}
+
+.div-2 .nav ul li a {
+    color: white;
+}
+
+
+/* social-icon  */
+
+.div-2 .social-icon i {
+    height: 30px;
+    width: 10%;
+    border-radius: 20%;
+    padding: 8px;
+    background-color: white;
+}
+
+.div-2 .social-icon h5 {
+    color: white;
+    margin-top: 5%;
+}
+
+
+/* div-3 start  */
+
+.div-3 {
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    background-color: rgba(247, 245, 245, 0.4);
+    padding: 40px 30px;
+}
+
+.div-2 .nav .one {
+    position: absolute;
+    left: 70%;
+    height: 15px;
+    width: 3%;
+    background-color: white;
+}
+
+.div-2 .social-icon {
+    text-align: center;
+}
+
+.div-3 h4 {
+    color: blue;
+    font-size: 20px;
+}
+
+
+/* details section  */
+
+.Details {
+    height: 500px;
+    width: 70%;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    display: flex;
+}
+
+.Details .about {
+    height: 500px;
+    width: 40%;
+}
+
+.Details .about i {
+    color: blue;
+    font-size: 50px;
+}
+
+.Details .about span {
+    color: blue;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.Details .about p {
+    margin-top: 5%;
+    width: 70%;
+}
+
+.Details .profile {
+    height: 500px;
+    width: 40%;
+}
+
+.Details .profile i {
+    color: blue;
+    font-size: 50px;
+}
+
+.Details .profile span {
+    color: blue;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.Details .profile p {
+    margin-top: 5%;
+    width: 70%;
+}
+
+
+/* work section  */
+
+.work {
+    height: 350px;
+    width: 60%;
+    border: 2px solid black;
+    position: absolute;
+    left: 30%;
+    top: 190%;
+    display: flex;
+    padding: 5px;
+}
+
+.work span {
+    height: 30px;
+    color: blue;
+    font-size: 20px;
+}
+
+.work .img {
+    padding: 10px 20px;
+}
+
+
+/* img1 starting  */
+
+.work .img1 {
+    height: 300px;
+    width: auto;
+}
+
+.work .img1 img {
+    padding-top: 60px;
+    height: 300px;
+    width: auto;
+}
+
+
+/* img2 starting  */
+
+.work .img2 {
+    height: 300px;
+    width: auto;
+}
+
+.work .img2 img {
+    padding-top: 60px;
+    height: 300px;
+    width: auto;
+    padding-left: 10%;
+}
+
+
+/* img3 starting  */
+
+.work .img3 {
+    height: 300px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.work .img3 img {
+    padding-top: 60px;
+    height: 300px;
+    width: auto;
+    padding-left: 10%;
+}
+
+
+/* img4 starting  */
+
+.work .img4 {
+    height: 300px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.work .img4 img {
+    padding-top: 60px;
+    height: 300px;
+    width: auto;
+    padding-left: 10%;
+}
+
+.clients {
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 250%;
+    left: 30%;
+}
+
+.clients span {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+}
+
+.clients p {
+    margin-top: 5%;
+}
+
+.clients .logo {
+    height: 300px;
+    width: 50%;
+}
+
+.clients .logo .logo1 {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.clients .logo .logo1 .l1 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    height: 90px;
+}
+
+.clients .logo .logo1 .l2 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    margin-left: 5%;
+    height: 90px;
+}
+
+.clients .logo .logo1 .l3 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    margin-left: 5%;
+    height: 90px;
+}
+
+.clients .logo .logo1 .l4 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    margin-left: 5%;
+    height: 90px;
+}
+
+
+/* logo2 starting  */
+
+.clients .logo .logo2 {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.clients .logo .logo2 .l5 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    height: 90px;
+}
+
+.clients .logo .logo2 .l6 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    margin-left: 5%;
+}
+
+.clients .logo .logo2 .l7 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    margin-left: 5%;
+    height: 90px;
+}
+
+.clients .logo .logo2 .l8 {
+    padding-left: 10px;
+    border: 1px solid black;
+    padding-top: 5px;
+    height: 90px;
+    margin-left: 5%;
+}
+
+.form {
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 310%;
+    left: 30%;
+    display: flex;
+}
+
+.form .form1 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.form .form1 span {
+    color: blue;
+    font-size: 25px;
+}
+
+.form .form2 {
+    height: 300px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.form input {
+    height: 30px;
+    width: 60%;
+    border: none;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.form textarea {
+    border: none;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.form button {
+    margin-top: 2%;
+    margin-left: 50%;
+}
