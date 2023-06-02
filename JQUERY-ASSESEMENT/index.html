@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slide.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="image-container">
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww&w=1000&q=80">
+        </div>
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww&w=1000&q=80">
+        </div>
+        <div class="slide">
+            <img src="https://media.architecturaldigest.com/photos/57c7003fdc03716f7c8289dd/16:9/w_1280,c_limit/IMG%20Worlds%20of%20Adventure%20-%201.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="https://www.kraftwerk.at/app/uploads/fly-images/962/reference-img-worlds-of-adventure-park-4-1920x9999.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="https://www.hotelnewsme.com/wp-content/uploads/2016/12/shutterstock_528764896.jpg">
+        </div>
+        <div class="slide">
+            <img src="https://www.imgworlds.com/wp-content/uploads/2015/12/generic.jpg">
+        </div>
+
+
+        <!-- Next and Previous icon to change images -->
+        <a class="previous" onclick="moveSlides(-1)">
+            <i class="fa fa-chevron-circle-left"></i>
+        </a>
+        <a class="next" onclick="moveSlides(1)">
+            <i class="fa fa-chevron-circle-right"></i>
+        </a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="footerdot" onclick="activeSlide(1)">
+        </span>
+        <span class="footerdot" onclick="activeSlide(2)">
+        </span>
+        <span class="footerdot" onclick="activeSlide(3)">
+        </span>
+        <span class="footerdot" onclick="activeSlide(4)">
+        </span>
+        <span class="footerdot" onclick="activeSlide(5)">
+        </span>
+        <span class="footerdot" onclick="activeSlide(6)">
+        </span>
+    </div>
+    <script>
+        $(document).ready(function() {
+
+            $("img").click(function() {
+                $("img").css("transition", "transform 4s").css("transform", "rotate(180deg)");
+            });
+
+            $("img").dblclick(function() {
+                $("img").css("transition", "transform 3s").css("transform", "rotate(0deg)");
+            });
+        });
+    </script>
+</body>
+
+</html>
